@@ -1,0 +1,26 @@
+{
+  "name": "youtube",
+  "version": "1.0.1",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder build --mac  --publish never",
+    "deploy": "electron-builder build --mac  --publish always"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bilalsalambee/electron.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^11.0.3",
+    "electron-updater": "^4.3.5",
+    "install": "^0.13.0",
+    "npm": "^6.14.9"
+  },
+  "devDependencies": {
+    "electron-builder": "^22.9.1"
+  }
+}
